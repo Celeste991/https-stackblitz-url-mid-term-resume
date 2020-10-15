@@ -18,7 +18,7 @@ import { MyResumeComponent } from './my-resume/my-resume.component';
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: 
       ProductDetailsComponent },
-      { path: '', component: MyResumeComponent },
+      { path: 'resume', component: MyResumeComponent },
     ])
   ],
   declarations: [
